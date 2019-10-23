@@ -695,9 +695,9 @@ entityDef player_marine
 	"weapon"						"weapon_blaster"
 	"current_weapon"					"0"
 
-	"pm_jumpheight"						"75" // was 48
+	"pm_jumpheight"						"60" // was 48
 	"pm_stepsize"						"25" // was 16
-	"pm_speed"						"200"  	// was 160
+	"pm_speed"						"190"  	// was 160
 	"pm_walkspeed"						"80"
 	"pm_crouchspeed"					"80"
 	"pm_noclipspeed"					"270"	
@@ -714,7 +714,7 @@ entityDef player_marine
 	"pm_normalviewheight"					"68"
 	"pm_deadheight"						"20"
 	"pm_deadviewheight"					"10"
-	"pm_crouchrate"						"0.8"	// was .87
+	"pm_crouchrate"						"1"	// was .87
 	"pm_bboxwidth"						"32"
 	"pm_modelview"						"0"			// 0 == normal, 1 == view inside model, 2 == view inside model when dead
 	"pain_delay"						"0.5"		// how long to wait before playing pain sound
