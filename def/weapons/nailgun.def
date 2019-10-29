@@ -106,7 +106,7 @@ entityDef weapon_nailgun
 
 	"joint_world_flash"			"nailgun_rotating_drum"
 
-	"fireRate"					".16"
+	"fireRate"					".25" // was .16
 	"spread"					"3"
 	"spread_mp"					"0"
 	"spreadSeek"				"5"
@@ -127,7 +127,7 @@ entityDef weapon_nailgun
 	"def_altprojectile"			"projectile_nail_seek"
 	"ammoType"					"ammo_nailgun"
 	"ammoRequired"				"1"
-	"clipSize"					"50"
+	"clipSize"					"25" // was 50
 	"lowAmmo"					"1"
 
 	"mtr_flashShader"			"lights/muzzleflash"
@@ -328,9 +328,9 @@ entityDef wpmod_nailgun_power
 	"mod_showsurface2"			"models/weapons/nailgun_mod_ammo"
 	"mod_hidesurface"			"models/weapons/nailgun_clip"
 
-	"fireRate"					".12"
+	"fireRate"					".2" // was .12
 	"drumSpeed"					"1.25"
-	"clipSize"					"100"
+	"clipSize"					"50" // was 100
 }
 
 entityDef wpmod_nailgun_seek
