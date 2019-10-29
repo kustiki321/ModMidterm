@@ -78,11 +78,11 @@ entityDef weapon_blaster
 	"joint_world_flash"			"muzzle_flash"
 
 	// Firing properties
-	"chargeTime"				".8"
+	"chargeTime"				"2" // was .8
 	"chargeDelay"				".1"
 	"chargeGlow"				"0 .4"
 	"fireRate"					".15"
-	"spread"					".2"
+	"spread"					".1" // was .2
 
 //	"def_projectile"			"projectile_blaster"
 	"def_hitscan"				"hitscan_blaster"
@@ -313,7 +313,7 @@ entityDef projectile_blaster_charged
 entityDef damage_blaster
 {
 	"inherit"					"damage_bullet"
-	"damage"					"7" // was 8
+	"damage"					"10" // was 8
 
 	"fx_wound"					"effects/wounds/energy.fx"
 
