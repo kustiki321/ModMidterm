@@ -78,7 +78,7 @@ entityDef weapon_hyperblaster
 	"crosshairOffsetX"			"0"
 	"crosshairOffsetY"			"0"
 
-	"fireRate"					".08"
+	"fireRate"					".15" // was .08
 	"spread"					"2"
 	"spread_mp"					"0"
 
@@ -89,10 +89,10 @@ entityDef weapon_hyperblaster
 
 	"weaponname"				"HyperBlaster"
 	"ammoType"					"ammo_hyperblaster"
-	"inv_start_ammo_hyperblaster"		"60"
+	"inv_start_ammo_hyperblaster"		"100" // was 60
 	"ammoRegenStep"				"5"
 	"ammoRegenTime"				"1500"
-	"clipSize"					"60"									// large for smooth regen
+	"clipSize"					"100"									// large for smooth regen, was 60
 	"ammoRequired"				"1"										// ammo is handled in the script file
 	"gui"						"guis/weapons/hyperblaster_ammo.gui"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_hyperblaster"
@@ -271,7 +271,7 @@ entityDef weaponmod_hyperblaster_bounce2
 entityDef damage_hyperblaster
 {
 	"inherit"					"damage_blaster"
-	"damage"					"14"
+	"damage"					"15"
 
 	"deathPush"					"100"
 	"deathPushMin"				"3000 350"
@@ -286,7 +286,7 @@ entityDef damage_hyperblaster_mp
 
 entityDef damage_hyperblaster_splash
 {
-	"damage"					"10"
+	"damage"					"15"
 	"radius"					"35"
 	"knockback"					"5"
 	"push"						"0"
