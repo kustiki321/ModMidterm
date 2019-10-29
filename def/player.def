@@ -742,7 +742,7 @@ entityDef player_marine
 
 	"max_ammo_blaster"					"100" // was -1
 	"max_ammo_railgun"					"50" 
-	"max_ammo_machinegun"					"300"
+	"max_ammo_machinegun"					"144" // was 300
 	"max_ammo_nailgun"					"25" // was 300
 	"max_ammo_shotgun"					"50"
 	"max_ammo_hyperblaster"					"400"
