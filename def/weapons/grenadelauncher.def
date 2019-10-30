@@ -74,7 +74,7 @@ entityDef weapon_grenadelauncher
 	"joint_view_barrel"			"barrel"
 	"joint_world_flash"			"muzzle_flash"
 
-	"fireRate"					".8"
+	"fireRate"					"1.3" // was .8
 	"spread"					"0"
 	
 	// the direction of projectile launches will be modified by this
@@ -89,7 +89,7 @@ entityDef weapon_grenadelauncher
 	"weaponname"				"Grenade Launcher"
 	"def_projectile"			"projectile_grenade"
 	"ammoType"					"ammo_grenadelauncher"
-	"clipSize"					"8"
+	"clipSize"					"6" // was 8
 	"ammoRequired"				"1"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_grenadelauncher"
 
@@ -244,20 +244,20 @@ entityDef projectile_grenade
 	"def_damage"				"damage_grenadeDirect"
 	"def_splash_damage"			"damage_grenadeSplash"
 																											
-	"speed"						"700"
+	"speed"						"1000" // was 700
 	"angular_velocity"			"-10 5 1"
 	"settle_duration"			"0.08"
 	
 	"linear_friction"			"0"
 	"angular_friction"			"0"
 	"contact_friction"			"10"
-	"bounce"					".65"
+	"bounce"					".5" // was .65
 	"gravity"					"1"
-	"fuse"						"2.5"
+	"fuse"						"1.5" // was 2.5
 								
 	"detonate_on_fuse"			"1"
 	"detonate_on_death"			"0"
-	"detonate_on_world"			"0"
+	"detonate_on_world"			"1" // was 0
 	"detonate_on_actor"			"1"
 	"detonateTestGroundMaterial"	"1"
 								
@@ -296,7 +296,7 @@ entityDef projectile_grenade
 
 entityDef damage_grenadeDirect 
 {
-	"damage"					"125"
+	"damage"					"38" // was 125
 	"gib"						"1"
 
 	"deathPush"					"200"
