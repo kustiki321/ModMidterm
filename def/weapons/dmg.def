@@ -124,7 +124,7 @@ entityDef weapon_dmg
 	"flashTime"					".1"
 	"flashViewOffset"			"15 -5 -5"
 
-	"chargeDuration"			"3" // was 4
+	"chargeDuration"			"4"
 
 	"mtr_guiLightShader"		"lights/viewWeaponGuiLight"
 
@@ -251,8 +251,8 @@ model weapon_dmg_world
 
 entityDef damage_dmg_fly
 {
-	"damage"					"30"
-	"radius"					"200"
+	"damage"					"284" // was 30
+	"radius"					"100" // was 200
 //	"knockback"					"100"
 	"push"						"-3000"
 	"gib"						"1"
@@ -308,7 +308,7 @@ entityDef projectile_dmg
 	"def_radius_damage"			"damage_dmg_fly"
 	"damageRate"				".05"
 																											
-	"speed"					"250"
+	"speed"					"500"
 	
 	"delay_splash"				".45"
 	
