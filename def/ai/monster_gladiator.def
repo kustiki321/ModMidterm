@@ -373,7 +373,7 @@ model model_monster_gladiator
 entityDef damage_gladiator_blaster
 {
 	"inherit"							"damage_monster_base"
-	"damage"							"5"
+	"damage"							"25" // was 5
 }
 
 entityDef projectile_gladiator_blaster
@@ -395,7 +395,7 @@ entityDef damage_gladiator_railgun
 {
 	"inherit"							"damage_railgun_base"
 //	"damage"							"50"
-	"damage"							"40"
+	"damage"							"75" // was 40
 	"kickdir"							"1 0 0"
 }
 
@@ -411,7 +411,7 @@ entityDef hitscan_gladiator_railgun
 
 entityDef melee_gladiator_new
 {
-	"damage"						"25"
+	"damage"						"60" // was 25
 	"knockback"						"50"
 
 	"kickDir"						".5 0 0.3"
@@ -499,18 +499,18 @@ entityDef monster_gladiator
 	"action_rangedAttack"				"1"
 	"action_rangedAttack_state"			"Torso_BlasterAttack"
 	"action_rangedAttack_anim"			"blaster_loop"
-	"action_rangedAttack_minRange"		"100"
+	"action_rangedAttack_minRange"		"200" // was 100
 	"action_rangedAttack_maxRange"		"800"
 //	"action_rangedAttack_rate"			"1.2"
-	"action_rangedAttack_rate"			"1.8"
-	"action_rangedAttack_chance"		"0.35"
+	"action_rangedAttack_rate"			".75" // was 1.8
+	"action_rangedAttack_chance"		"0.75" // was .35
 
 	"action_meleeAttack"				"1"
 	"action_meleeAttack_minRange"		"0"
 	"action_meleeAttack_maxRange"		"100"
 //	"action_meleeAttack_chance"			"0.25"
 	"action_meleeAttack_chance"			"1"
-	"action_meleeAttack_rate"			"0.1"
+	"action_meleeAttack_rate"			"0.9" // was .1
 	"action_meleeAttack_failrate"		"0.1"
 	
 	"action_railgunAttack"				"1"
@@ -518,12 +518,12 @@ entityDef monster_gladiator
 	"action_railgunAttack_maxRange"		"1500"
 	"action_railgunAttack_anim"			"railgun_attack"
 //	"action_railgunAttack_rate"			"2"
-	"action_railgunAttack_rate"			"2.5"
-	"action_railgunAttack_failrate"		"0.5"
+	"action_railgunAttack_rate"			"1.25" // was 2.5
+	"action_railgunAttack_failrate"		"0.2" // was .5
 	"action_railgunAttack_chance"		"1"
 	"action_railgunAttack_nopain"		"1"
 	
-	"actionTimer_rangedAttack_rate"		"1.2"				
+	"actionTimer_rangedAttack_rate"		".8" // was 1.2
 	"actionTimer_specialAttack_rate"	"2"
 
 	// --------------------------------- Body ------------------------------------
@@ -543,19 +543,19 @@ entityDef monster_gladiator
 
 	// --------------------------------- Combat ----------------------------------
 //	"health"							"700"
-	"health"							"550"
-	"railgunHealth"						"200"
+	"health"							"1000" // was 550
+	"railgunHealth"						"400" // was 200
 	"painThreshold"						"10"
 	"painThresholdBig"					"90"
 	"melee_range"						"100"
-	"shieldDelay"						".25"
+	"shieldDelay"						".1" // was .25
 //	"fov"								"50"
 	"fov"								"150"
-	"awareRange"						"200"
+	"awareRange"						"800" // was 200
 
 	"tactical_rush"						"1"
 	"tactical_ranged"					"1"
-	"tactical_cover"					"0"
+	"tactical_cover"					"1" // was 0
 	"tactical_hide"						"1"
 
 	"def_attack_melee"					"melee_gladiator"

@@ -474,7 +474,7 @@ entityDef monster_berserker
 	"action_chargeAttack"					"1"
 	"action_chargeAttack_minRange"			"10" // was 100
 	"action_chargeAttack_maxRange"			"275"
-	"action_chargeAttack_chance"			".75" // was .5
+	"action_chargeAttack_chance"			".9" // was .5
 	
 	"action_popupAttack"					"1"
 	"action_popupAttack_maxRange"			"125"
@@ -482,10 +482,10 @@ entityDef monster_berserker
 	"action_popupAttack_anim"				"melee_popup"
 	
 	"action_rangedAttack"					"1"
-	"action_rangedAttack_minRange"			"0"
+	"action_rangedAttack_minRange"			"200" // was 0
 	"action_rangedAttack_maxRange"			"500"
 	"action_rangedAttack_anim"				"ranged_attack"
-	"action_rangedAttack_rate"				"0.25"
+	"action_rangedAttack_rate"				"0.2" // was .25
 	"action_rangedAttack_failrate"			"0.5"
 	"action_rangedAttack_chance"			"1"
 	"action_rangedAttack_nopain"			"1"
@@ -497,15 +497,15 @@ entityDef monster_berserker
 	"use_aas"								"aas48"
 
 	// --------------------------------- Combat ----------------------------------
-	"health"								"200"
+	"health"								"500" // was 200
 	"painThreshold"							"20"
 
 	"melee_range"							"100"
 
 	"tactical_rush"							"1"		// Advance as close to the player as necessary?
 	"tactical_ranged"						"0"		// Stop at a valid attack range and remain there shooting?
-	"tactical_cover"						"0"		// Take cover?
-	"tactical_hide"							"0"		// Run away and hide if there is no way to attack enemy?
+	"tactical_cover"						"1"		// Take cover?
+	"tactical_hide"							"1"		// Run away and hide if there is no way to attack enemy?
 
 	"def_attack_spike"						"projectile_berserker_energyBurst"
 	"def_attack_popup_a"					"melee_berserker_popup_a"

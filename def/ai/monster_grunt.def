@@ -357,7 +357,7 @@ entityDef hitscan_grunt_bullet
 entityDef melee_grunt_base
 {
 	"inherit"						"melee_monster_base"
-	"damage"						"30"
+	"damage"						"40" // was 30
 	"knockback"						"80"
 
 	"kickDir"						"1 0 1"
@@ -420,33 +420,33 @@ entityDef monster_grunt
 	"action_meleeAttack_maxRange"			"72"
 	
 	"action_meleeMoveAttack"				"1"
-	"action_meleeMoveAttack_minRange"		"80"
-	"action_meleeMoveAttack_maxRange"		"100"
+	"action_meleeMoveAttack_minRange"		"20" // was 80
+	"action_meleeMoveAttack_maxRange"		"50" // was 100
 	"action_meleeMoveAttack_anim"			"melee_move_attack"
 	
 	"action_railgunAttack"					"1"
 	"action_railgunAttack_rate"				"8"
-	"action_railgunAttack_minRange"			"300"
+	"action_railgunAttack_minRange"			"150" // was 300
 	"action_railgunAttack_maxRange"			"2000"
 	
 	"action_rangedAttack"					"1"
 	"action_rangedAttack_rate"				"2"	
-	"action_rangedAttack_minRange"			"0"
+	"action_rangedAttack_minRange"			"200" // was 0
 	"action_rangedAttack_maxRange"			"700"
 	
 	"action_leapAttack"						"1"
 	"action_leapAttack_rate"				"1"
-	"action_leapAttack_minRange"			"256"
-	"action_leapAttack_maxRange"			"384"
+	"action_leapAttack_minRange"			"30" // was 256
+	"action_leapAttack_maxRange"			"400" // was 384
 	
 	"action_jumpback"						"1"
 	"action_jumpback_maxrange"				"90"
 	
 	"action_evadeLeft"						"1"
-	"action_evadeLeft_minrange"				"150"
+	"action_evadeLeft_minrange"				"75" // was 150
 
 	"action_evadeRight"						"1"
-	"action_evadeRight_minrange"			"150"
+	"action_evadeRight_minrange"			"75" // was 150
 		
 	// --------------------------------- Body ------------------------------------
 	"model"									"model_monster_grunt"
@@ -458,7 +458,7 @@ entityDef monster_grunt
 	"chatter_combat_rate"					"8"	
 
 	// --------------------------------- Combat ----------------------------------
-	"health"								"150"
+	"health"								"250" // was 150
 	"health_rageThreshold"					"80"
 	"painThreshold"							"1"
 	"missile_visibility_joint"				"muzzle_flash"

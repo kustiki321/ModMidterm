@@ -133,7 +133,7 @@ model model_monster_slimy_transfer
 entityDef melee_slimyTransfer
 {
 	"inherit"											"melee_monster_base"
-	"damage"											"20"
+	"damage"											"10" // was 20
 	"snd_miss"											"failedtransfer_swing"
 	"snd_hit"											"failedtransfer_punch"
 }
@@ -149,14 +149,14 @@ entityDef damage_slimyTransfer_vomit
 entityDef damage_slimyTransfer_vomit_residual
 {
 	"inherit"					"damage_monster_base"
-	"knockback"					"0"
-	"damage"					"5"
+	"knockback"					"1" // was 0
+	"damage"					"10" // was 5
 }	
 
 entityDef damage_slimyTransfer_vomit_splash
 {
 	"inherit"					"damage_monster_base"
-	"knockback"					"0"
+	"knockback"					"1" // was 0
 	"damage"					"1"
 	"radius"					"64"
 
@@ -200,7 +200,7 @@ entityDef monster_slimy_transfer
 	"action_vomitAttack"					"1"
 //	"action_vomitAttack_maxrange"			"175"
 	"action_vomitAttack_maxrange"			"250"
-	"action_vomitAttack_rate"				"1.5"
+	"action_vomitAttack_rate"				"1" // was 1.5
 	"action_vomitAttack_blendFrames"		"4"
 	"action_vomitAttack_anim"				""
 	"action_vomitAttack_failrate"			"0"
@@ -219,19 +219,19 @@ entityDef monster_slimy_transfer
 	"chatter_combat_rate"					"8"	
 
 	// --------------------------------- Combat ----------------------------------
-	"health"								"49"
+	"health"								"200" // was 49
 	"painThreshold"							"1"
 
 	"def_attack_vomit"						"projectile_slimyTransfer_vomit"
 	"attack_vomit_accuracy"					"5"
 	"attack_vomit_lockToJoint"				"1"
-	"attack_vomit_rate"						".1"
+	"attack_vomit_rate"						".8" // was .1
 
 	"def_attack_melee"						"melee_slimyTransfer"
 
-	"tactical_ranged"						"0"
+	"tactical_ranged"						"1"
 	"tactical_rush"							"1"
-	"tactical_cover"						"0"
+	"tactical_cover"						"1"
 	"tactical_hide"							"1"
 
 	// --------------------------------- Damage Zones -----------------------------

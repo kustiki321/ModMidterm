@@ -193,7 +193,7 @@ model model_monster_failed_transfer
 entityDef damage_failed_transfer_bullet
 {
 	"inherit"								"damage_bullet_base"
-	"damage"								"5"
+	"damage"								"10"
 }
 
 entityDef hitscan_failed_transfer_shotgun
@@ -257,7 +257,7 @@ entityDef monster_failed_transfer
 	"deathhidesurface1"						"models/weapons/mp_guns/w_sg"
 
 	// --------------------------------- Combat ----------------------------------
-	"health"								"70"
+	"health"								"200" // was 70
 	"split_health"							"30"
 	"painThreshold"							"5"
 	"painThresholdBig"						"30"
@@ -265,9 +265,9 @@ entityDef monster_failed_transfer
 	"missile_visibility_joint"				"muzzleflash"
 
 	"tactical_rush"							"1"
-	"tactical_ranged"						"0"
-	"tactical_cover"						"0"
-	"tactical_hide"							"0"
+	"tactical_ranged"						"1"
+	"tactical_cover"						"1"
+	"tactical_hide"							"1"
 
 	"def_attack_shotgun"					"hitscan_failed_transfer_shotgun"
 	"attack_shotgun_hitscan"				"1"
