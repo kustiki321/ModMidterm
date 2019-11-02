@@ -1,0 +1,18 @@
+Halo 3 Mod
+Weapon Changes:
+Blaster -> Plasma Pistol
+Machine Gun -> Battle Rifle
+Shotgun -> Human Shotgun
+Hyperblaster -> Plasma Rifle
+Grenade Launcher -> Brute Shot
+Nailgun -> Mauler
+Rocket Launcher -> Human Rocket Launcher
+Railgun -> Sniper Rifle
+DMG -> Sparta Laser
+Enemy Changes:
+Berserker -> Elite
+Gladiator -> Hunter
+Grunts -> Brutes
+Failed Transfer -> Flood-Infected Marine
+Slimy Transfer -> Ranged Form Flood
+
